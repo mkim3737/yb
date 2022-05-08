@@ -1,0 +1,387 @@
+[2022-05-08 15:30:49,233|KW|DEBUG|kw.py:_comm_connect:312]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:31:33,958|KW|DEBUG|kw.py:_on_event_connect:75]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:23,426|KW|DEBUG|kw.py:_comm_connect:312]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:31,668|KW|DEBUG|kw.py:_on_event_connect:75]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:32,398|KW|DEBUG|kw.py:_comm_rq_data:1150]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:32,908|KW|INFO|kw.py:_on_receive_msg:294] (!)[Callback] _on_receive_msg
+[2022-05-08 15:43:32,908|KW|INFO|kw.py:_on_receive_msg:295] screen_no: 6001
+[2022-05-08 15:43:32,909|KW|INFO|kw.py:_on_receive_msg:296] rqname: 
+[2022-05-08 15:43:32,909|KW|INFO|kw.py:_on_receive_msg:297] trcode(TRansaction name): 
+[2022-05-08 15:43:32,909|KW|INFO|kw.py:_on_receive_msg:298] msg: 
+[2022-05-08 15:43:32,910|KW|INFO|tr.py:_on_receive_tr_data:142] (!)[Callback] _on_receive_tr_data
+[2022-05-08 15:43:32,911|KW|INFO|tr.py:_on_receive_tr_data:143] trcode : OPW00004
+[2022-05-08 15:43:32,911|KW|INFO|tr.py:post_opw00004:813] [POST_OPW00004] completed
+[2022-05-08 15:43:32,912|KW|INFO|tr.py:_on_receive_tr_data:154]   ========================> [IMPORTANT] EVENT_LOOP -> RELEASE
+[2022-05-08 15:43:33,420|KW|INFO|tr.py:_on_receive_tr_data:159] [OnReceiveTrData] Notify callback method..
+[2022-05-08 15:43:33,422|KW|DEBUG|kw.py:get_condition_load:471]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:34,054|KW|INFO|kw.py:_on_receive_condition_ver:231] Success to load user condition
+[2022-05-08 15:43:34,061|KW|DEBUG|kw.py:_on_receive_condition_ver:237]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:34,577|KW|INFO|kw.py:send_condition:516] Start to Condition(피봇) Search !
+[2022-05-08 15:43:34,578|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:35,086|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:35,086|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:35,086|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:43:35,086|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 050960;096640;105840;204840;
+[2022-05-08 15:43:35,086|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 피봇
+[2022-05-08 15:43:35,087|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 16
+[2022-05-08 15:43:35,087|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:35,087|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:35,088|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:36,110|KW|INFO|kw.py:send_condition:516] Start to Condition(1분단타_최고종가) Search !
+[2022-05-08 15:43:36,111|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:36,612|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:36,612|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:36,612|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:43:36,614|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 003350;038110;105840;322180;
+[2022-05-08 15:43:36,614|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 1분단타_최고종가
+[2022-05-08 15:43:36,615|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 15
+[2022-05-08 15:43:36,615|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:36,615|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:36,616|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:37,633|KW|INFO|kw.py:send_condition:516] Start to Condition(1분 단타) Search !
+[2022-05-08 15:43:37,634|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:38,144|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:38,145|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:38,145|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:43:38,146|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 038110;
+[2022-05-08 15:43:38,146|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 1분 단타
+[2022-05-08 15:43:38,147|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 13
+[2022-05-08 15:43:38,147|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:38,147|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:38,147|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:39,164|KW|INFO|kw.py:send_condition:516] Start to Condition(개미친구) Search !
+[2022-05-08 15:43:39,165|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:39,674|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:39,674|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:39,674|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:43:39,674|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 000220;004140;004910;005320;005820;006090;006110;006980;007280;007460;007590;009070;009440;009780;010600;010770;011150;011420;012790;013310;014130;014160;017940;018290;018620;021050;021650;023150;023460;023790;023900;024900;025820;027360;027580;028080;032300;032620;032850;033180;035290;035610;036030;036640;038460;038680;038950;039860;041460;045970;048870;050120;053280;053300;057680;063160;065170;066410;066620;067290;067570;068290;076080;081000;082210;084730;086670;086710;088910;092220;092300;095720;097800;100220;109080;109820;115500;123010;124500;126600;131220;138080;140410;144960;153490;160980;169330;189980;190510;191420;207760;208370;208710;214610;217500;217600;221980;226340;229640;234100;237820;238090;245620;248170;260660;263600;263700;263720;263770;263810;273060;277410;289010;290270;290660;297570;304840;307750;319400;322180;322510;327260;339770;348350;352480;352940;354200;356890;357230;
+[2022-05-08 15:43:39,675|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 개미친구
+[2022-05-08 15:43:39,676|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 14
+[2022-05-08 15:43:39,677|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:39,677|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:39,677|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:40,693|KW|INFO|kw.py:send_condition:516] Start to Condition(개미친구_224부근) Search !
+[2022-05-08 15:43:40,694|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:41,201|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:41,201|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:41,202|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:43:41,202|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 000390;009070;021320;022220;023900;038680;039420;039980;043260;065440;069140;228340;229640;290270;
+[2022-05-08 15:43:41,202|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 개미친구_224부근
+[2022-05-08 15:43:41,203|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 10
+[2022-05-08 15:43:41,203|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:41,204|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:41,204|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:42,227|KW|INFO|kw.py:send_condition:516] Start to Condition(개미친구_박스돌파) Search !
+[2022-05-08 15:43:42,229|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:42,739|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:42,739|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:42,740|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:43:42,740|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 000220;000230;000390;000500;001250;001790;002140;002220;002800;002920;004090;004140;004780;004910;006090;006110;006340;006380;006740;006890;007280;008470;008700;008830;009070;009160;009180;009440;009780;010040;010100;010690;010770;011320;012790;012800;013310;014130;014160;014200;014790;015860;016880;016920;017890;017940;018470;018670;019180;020710;021320;023900;024880;025820;025950;027360;027580;027830;028080;035460;036030;036640;038110;038680;038950;039240;039420;039560;039610;039860;039980;041440;043200;043260;045340;047080;047770;048470;050110;050860;050960;053030;053160;053270;053300;054040;054930;059100;061040;063160;063440;065440;066620;067920;069140;074430;075970;076080;079170;080000;081000;082800;086040;086890;086960;089530;092300;092440;092600;092780;094940;095500;095720;101330;103590;105840;109080;119850;123010;124500;126600;126880;129260;131400;138080;138490;140070;140410;140520;140670;144960;153490;163560;168330;173130;177830;179290;183300;187220;189690;190510;191420;198080;204840;205100;206400;208370;208710;214150;214610;221840;221980;222040;226400;228340;229640;237820;238090;239340;241790;246720;253590;263020;263700;263720;263810;273060;277070;288620;290270;290380;302430;304840;307750;319400;322180;327260;339770;340440;348350;353190;354200;
+[2022-05-08 15:43:42,741|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 개미친구_박스돌파
+[2022-05-08 15:43:42,742|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 12
+[2022-05-08 15:43:42,742|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:42,743|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:42,743|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:43,760|KW|INFO|kw.py:send_condition:516] Start to Condition(개미친구_RSI진입) Search !
+[2022-05-08 15:43:43,761|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:44,272|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:44,273|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:44,273|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:43:44,274|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 032300;041460;109820;123010;140410;191420;234100;263770;307750;
+[2022-05-08 15:43:44,274|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 개미친구_RSI진입
+[2022-05-08 15:43:44,275|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 4
+[2022-05-08 15:43:44,275|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:44,276|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:44,276|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:45,294|KW|INFO|kw.py:send_condition:516] Start to Condition(개미친구_RSI(5)_70접근) Search !
+[2022-05-08 15:43:45,296|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:45,806|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:45,806|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:45,807|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:43:45,807|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 109080;183300;221980;277070;
+[2022-05-08 15:43:45,807|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 개미친구_RSI(5)_70접근
+[2022-05-08 15:43:45,808|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 9
+[2022-05-08 15:43:45,808|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:45,808|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:45,809|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:46,826|KW|INFO|kw.py:send_condition:516] Start to Condition(급락반등) Search !
+[2022-05-08 15:43:46,827|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:47,339|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:47,339|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:47,339|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:43:47,340|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 014200;029480;046390;291230;
+[2022-05-08 15:43:47,340|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 급락반등
+[2022-05-08 15:43:47,341|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 11
+[2022-05-08 15:43:47,341|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:47,341|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:47,342|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:48,360|KW|INFO|kw.py:send_condition:516] Start to Condition(RSI(5)_70접근) Search !
+[2022-05-08 15:43:48,362|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:48,866|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:48,867|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:48,867|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:43:48,867|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 000500;001340;006890;007120;011500;014530;086040;086960;099190;129260;229640;277070;
+[2022-05-08 15:43:48,868|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: RSI(5)_70접근
+[2022-05-08 15:43:48,868|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 0
+[2022-05-08 15:43:48,869|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:48,869|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:48,869|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:49,888|KW|INFO|kw.py:send_condition:516] Start to Condition(RSI 진입) Search !
+[2022-05-08 15:43:49,889|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:50,397|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:50,399|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:50,399|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4001
+[2022-05-08 15:43:50,400|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 035420;042700;048260;112040;263770;290090;294570;370090;381970;402340;
+[2022-05-08 15:43:50,400|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: RSI 진입
+[2022-05-08 15:43:50,400|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 17
+[2022-05-08 15:43:50,400|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:50,400|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:50,400|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:51,416|KW|INFO|kw.py:send_condition:516] Start to Condition(낙폭) Search !
+[2022-05-08 15:43:51,418|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:43:51,926|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:43:51,927|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:43:51,927|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4001
+[2022-05-08 15:43:51,928|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 004440;005820;035290;066910;145020;
+[2022-05-08 15:43:51,928|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 낙폭
+[2022-05-08 15:43:51,928|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 1
+[2022-05-08 15:43:51,929|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:43:51,929|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:43:51,929|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:43:52,946|KW|INFO|kw.py:send_condition:516] Start to Condition(신규개미친구) Search !
+[2022-05-08 15:44:00,156|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:44:00,668|KW|INFO|kw.py:send_condition:516] Start to Condition(단타초반) Search !
+[2022-05-08 15:44:02,450|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:44:02,953|KW|INFO|kw.py:send_condition:516] Start to Condition(피봇단타) Search !
+[2022-05-08 15:44:03,409|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:44:03,918|KW|INFO|kw.py:send_condition:516] Start to Condition(시초가2) Search !
+[2022-05-08 15:44:04,149|KW|DEBUG|kw.py:_comm_rq_data:1150]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:44:04,661|KW|INFO|kw.py:_on_receive_msg:294] (!)[Callback] _on_receive_msg
+[2022-05-08 15:44:04,661|KW|INFO|kw.py:_on_receive_msg:295] screen_no: 6001
+[2022-05-08 15:44:04,662|KW|INFO|kw.py:_on_receive_msg:296] rqname: 
+[2022-05-08 15:44:04,662|KW|INFO|kw.py:_on_receive_msg:297] trcode(TRansaction name): 
+[2022-05-08 15:44:04,663|KW|INFO|kw.py:_on_receive_msg:298] msg: 
+[2022-05-08 15:44:04,664|KW|INFO|tr.py:_on_receive_tr_data:142] (!)[Callback] _on_receive_tr_data
+[2022-05-08 15:44:04,665|KW|INFO|tr.py:_on_receive_tr_data:143] trcode : OPW00004
+[2022-05-08 15:44:04,665|KW|INFO|tr.py:post_opw00004:813] [POST_OPW00004] completed
+[2022-05-08 15:44:04,665|KW|INFO|tr.py:_on_receive_tr_data:154]   ========================> [IMPORTANT] EVENT_LOOP -> RELEASE
+[2022-05-08 15:44:05,174|KW|INFO|tr.py:_on_receive_tr_data:159] [OnReceiveTrData] Notify callback method..
+[2022-05-08 15:44:06,030|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:44:06,537|KW|INFO|kw.py:send_condition:516] Start to Condition(전일고가돌파1) Search !
+[2022-05-08 15:44:07,075|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:44:07,580|KW|INFO|kw.py:send_condition:516] Start to Condition(전일고가돌파2) Search !
+[2022-05-08 15:44:08,073|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:44:08,575|KW|INFO|kw.py:send_condition:516] Start to Condition(새조건명) Search !
+[2022-05-08 15:44:09,051|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:59:05,907|KW|DEBUG|kw.py:_comm_connect:312]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:14,785|KW|DEBUG|kw.py:_on_event_connect:75]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:15,528|KW|DEBUG|kw.py:_comm_rq_data:1150]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:16,030|KW|INFO|kw.py:_on_receive_msg:294] (!)[Callback] _on_receive_msg
+[2022-05-08 15:59:16,031|KW|INFO|kw.py:_on_receive_msg:295] screen_no: 6001
+[2022-05-08 15:59:16,032|KW|INFO|kw.py:_on_receive_msg:296] rqname: 
+[2022-05-08 15:59:16,032|KW|INFO|kw.py:_on_receive_msg:297] trcode(TRansaction name): 
+[2022-05-08 15:59:16,033|KW|INFO|kw.py:_on_receive_msg:298] msg: 
+[2022-05-08 15:59:16,035|KW|INFO|tr.py:_on_receive_tr_data:142] (!)[Callback] _on_receive_tr_data
+[2022-05-08 15:59:16,036|KW|INFO|tr.py:_on_receive_tr_data:143] trcode : OPW00004
+[2022-05-08 15:59:16,037|KW|INFO|tr.py:post_opw00004:813] [POST_OPW00004] completed
+[2022-05-08 15:59:16,037|KW|INFO|tr.py:_on_receive_tr_data:154]   ========================> [IMPORTANT] EVENT_LOOP -> RELEASE
+[2022-05-08 15:59:16,546|KW|INFO|tr.py:_on_receive_tr_data:159] [OnReceiveTrData] Notify callback method..
+[2022-05-08 15:59:16,549|KW|DEBUG|kw.py:get_condition_load:471]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:17,192|KW|INFO|kw.py:_on_receive_condition_ver:231] Success to load user condition
+[2022-05-08 15:59:17,203|KW|DEBUG|kw.py:_on_receive_condition_ver:237]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:17,711|KW|INFO|kw.py:send_condition:516] Start to Condition(피봇) Search !
+[2022-05-08 15:59:17,713|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:18,219|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:18,220|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:18,221|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:59:18,221|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 050960;096640;105840;204840;
+[2022-05-08 15:59:18,222|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 피봇
+[2022-05-08 15:59:18,222|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 16
+[2022-05-08 15:59:18,223|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:18,223|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:18,224|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:19,249|KW|INFO|kw.py:send_condition:516] Start to Condition(1분단타_최고종가) Search !
+[2022-05-08 15:59:19,250|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:19,761|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:19,763|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:19,763|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:59:19,764|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 003350;038110;105840;322180;
+[2022-05-08 15:59:19,764|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 1분단타_최고종가
+[2022-05-08 15:59:19,765|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 15
+[2022-05-08 15:59:19,765|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:19,765|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:19,766|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:20,791|KW|INFO|kw.py:send_condition:516] Start to Condition(1분 단타) Search !
+[2022-05-08 15:59:20,793|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:21,305|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:21,306|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:21,306|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:59:21,306|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 038110;
+[2022-05-08 15:59:21,307|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 1분 단타
+[2022-05-08 15:59:21,307|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 13
+[2022-05-08 15:59:21,307|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:21,307|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:21,309|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:22,331|KW|INFO|kw.py:send_condition:516] Start to Condition(개미친구) Search !
+[2022-05-08 15:59:22,332|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:22,847|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:22,847|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:22,848|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:59:22,848|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 000220;004140;004910;005320;005820;006090;006110;006980;007280;007460;007590;009070;009440;009780;010600;010770;011150;011420;012790;013310;014130;014160;017940;018290;018620;021050;021650;023150;023460;023790;023900;024900;025820;027360;027580;028080;032300;032620;032850;033180;035290;035610;036030;036640;038460;038680;038950;039860;041460;045970;048870;050120;053280;053300;057680;063160;065170;066410;066620;067290;067570;068290;076080;081000;082210;084730;086670;086710;088910;092220;092300;095720;097800;100220;109080;109820;115500;123010;124500;126600;131220;138080;140410;144960;153490;160980;169330;189980;190510;191420;207760;208370;208710;214610;217500;217600;221980;226340;229640;234100;237820;238090;245620;248170;260660;263600;263700;263720;263770;263810;273060;277410;289010;290270;290660;297570;304840;307750;319400;322180;322510;327260;339770;348350;352480;352940;354200;356890;357230;
+[2022-05-08 15:59:22,848|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 개미친구
+[2022-05-08 15:59:22,849|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 14
+[2022-05-08 15:59:22,849|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:22,849|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:22,850|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:23,873|KW|INFO|kw.py:send_condition:516] Start to Condition(개미친구_224부근) Search !
+[2022-05-08 15:59:23,874|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:24,387|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:24,389|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:24,389|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:59:24,390|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 000390;009070;021320;022220;023900;038680;039420;039980;043260;065440;069140;228340;229640;290270;
+[2022-05-08 15:59:24,390|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 개미친구_224부근
+[2022-05-08 15:59:24,391|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 10
+[2022-05-08 15:59:24,391|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:24,392|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:24,393|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:25,413|KW|INFO|kw.py:send_condition:516] Start to Condition(개미친구_박스돌파) Search !
+[2022-05-08 15:59:25,414|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:25,927|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:25,929|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:25,930|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:59:25,930|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 000220;000230;000390;000500;001250;001790;002140;002220;002800;002920;004090;004140;004780;004910;006090;006110;006340;006380;006740;006890;007280;008470;008700;008830;009070;009160;009180;009440;009780;010040;010100;010690;010770;011320;012790;012800;013310;014130;014160;014200;014790;015860;016880;016920;017890;017940;018470;018670;019180;020710;021320;023900;024880;025820;025950;027360;027580;027830;028080;035460;036030;036640;038110;038680;038950;039240;039420;039560;039610;039860;039980;041440;043200;043260;045340;047080;047770;048470;050110;050860;050960;053030;053160;053270;053300;054040;054930;059100;061040;063160;063440;065440;066620;067920;069140;074430;075970;076080;079170;080000;081000;082800;086040;086890;086960;089530;092300;092440;092600;092780;094940;095500;095720;101330;103590;105840;109080;119850;123010;124500;126600;126880;129260;131400;138080;138490;140070;140410;140520;140670;144960;153490;163560;168330;173130;177830;179290;183300;187220;189690;190510;191420;198080;204840;205100;206400;208370;208710;214150;214610;221840;221980;222040;226400;228340;229640;237820;238090;239340;241790;246720;253590;263020;263700;263720;263810;273060;277070;288620;290270;290380;302430;304840;307750;319400;322180;327260;339770;340440;348350;353190;354200;
+[2022-05-08 15:59:25,932|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 개미친구_박스돌파
+[2022-05-08 15:59:25,932|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 12
+[2022-05-08 15:59:25,933|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:25,933|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:25,934|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:26,953|KW|INFO|kw.py:send_condition:516] Start to Condition(개미친구_RSI진입) Search !
+[2022-05-08 15:59:26,955|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:27,466|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:27,468|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:27,469|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:59:27,469|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 032300;041460;109820;123010;140410;191420;234100;263770;307750;
+[2022-05-08 15:59:27,469|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 개미친구_RSI진입
+[2022-05-08 15:59:27,470|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 4
+[2022-05-08 15:59:27,470|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:27,471|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:27,471|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:28,482|KW|INFO|kw.py:send_condition:516] Start to Condition(개미친구_RSI(5)_70접근) Search !
+[2022-05-08 15:59:28,483|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:28,994|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:28,995|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:28,996|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:59:28,997|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 109080;183300;221980;277070;
+[2022-05-08 15:59:28,997|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 개미친구_RSI(5)_70접근
+[2022-05-08 15:59:28,998|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 9
+[2022-05-08 15:59:28,998|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:28,999|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:28,999|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:30,024|KW|INFO|kw.py:send_condition:516] Start to Condition(급락반등) Search !
+[2022-05-08 15:59:30,026|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:30,537|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:30,538|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:30,538|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:59:30,539|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 014200;029480;046390;291230;
+[2022-05-08 15:59:30,540|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 급락반등
+[2022-05-08 15:59:30,540|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 11
+[2022-05-08 15:59:30,541|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:30,541|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:30,541|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:31,564|KW|INFO|kw.py:send_condition:516] Start to Condition(RSI(5)_70접근) Search !
+[2022-05-08 15:59:31,565|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:32,077|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:32,078|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:32,078|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 15:59:32,078|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 000500;001340;006890;007120;011500;014530;086040;086960;099190;129260;229640;277070;
+[2022-05-08 15:59:32,079|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: RSI(5)_70접근
+[2022-05-08 15:59:32,079|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 0
+[2022-05-08 15:59:32,079|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:32,081|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:32,081|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:33,092|KW|INFO|kw.py:send_condition:516] Start to Condition(RSI 진입) Search !
+[2022-05-08 15:59:33,093|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:33,603|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:33,604|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:33,604|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4001
+[2022-05-08 15:59:33,605|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 035420;042700;048260;112040;263770;290090;294570;370090;381970;402340;
+[2022-05-08 15:59:33,605|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: RSI 진입
+[2022-05-08 15:59:33,606|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 17
+[2022-05-08 15:59:33,606|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:33,607|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:33,607|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:34,633|KW|INFO|kw.py:send_condition:516] Start to Condition(낙폭) Search !
+[2022-05-08 15:59:34,635|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:35,148|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 15:59:35,148|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 15:59:35,149|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4001
+[2022-05-08 15:59:35,149|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 004440;005820;035290;066910;145020;
+[2022-05-08 15:59:35,150|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 낙폭
+[2022-05-08 15:59:35,151|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 1
+[2022-05-08 15:59:35,151|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 15:59:35,152|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 15:59:35,152|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 15:59:36,160|KW|INFO|kw.py:send_condition:516] Start to Condition(신규개미친구) Search !
+[2022-05-08 15:59:45,662|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:59:46,165|KW|INFO|kw.py:send_condition:516] Start to Condition(단타초반) Search !
+[2022-05-08 15:59:46,769|KW|DEBUG|kw.py:_comm_rq_data:1150]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 15:59:47,282|KW|INFO|kw.py:_on_receive_msg:294] (!)[Callback] _on_receive_msg
+[2022-05-08 15:59:47,282|KW|INFO|kw.py:_on_receive_msg:295] screen_no: 6001
+[2022-05-08 15:59:47,282|KW|INFO|kw.py:_on_receive_msg:296] rqname: 
+[2022-05-08 15:59:47,282|KW|INFO|kw.py:_on_receive_msg:297] trcode(TRansaction name): 
+[2022-05-08 15:59:47,283|KW|INFO|kw.py:_on_receive_msg:298] msg: 
+[2022-05-08 15:59:47,285|KW|INFO|tr.py:_on_receive_tr_data:142] (!)[Callback] _on_receive_tr_data
+[2022-05-08 15:59:47,285|KW|INFO|tr.py:_on_receive_tr_data:143] trcode : OPW00004
+[2022-05-08 15:59:47,286|KW|INFO|tr.py:post_opw00004:813] [POST_OPW00004] completed
+[2022-05-08 15:59:47,286|KW|INFO|tr.py:_on_receive_tr_data:154]   ========================> [IMPORTANT] EVENT_LOOP -> RELEASE
+[2022-05-08 15:59:47,797|KW|INFO|tr.py:_on_receive_tr_data:159] [OnReceiveTrData] Notify callback method..
+[2022-05-08 15:59:47,812|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:59:48,315|KW|INFO|kw.py:send_condition:516] Start to Condition(피봇단타) Search !
+[2022-05-08 15:59:49,033|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:59:49,541|KW|INFO|kw.py:send_condition:516] Start to Condition(시초가2) Search !
+[2022-05-08 15:59:49,959|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:59:50,462|KW|INFO|kw.py:send_condition:516] Start to Condition(전일고가돌파1) Search !
+[2022-05-08 15:59:50,900|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:59:51,412|KW|INFO|kw.py:send_condition:516] Start to Condition(전일고가돌파2) Search !
+[2022-05-08 15:59:51,905|KW|ERROR|kw.py:send_condition:527] [KiwoomProcessingError] sendCondition(): 조건검색 요청 실패
+[2022-05-08 15:59:52,414|KW|INFO|kw.py:send_condition:516] Start to Condition(새조건명) Search !
+[2022-05-08 16:14:10,166|KW|DEBUG|kw.py:_comm_connect:312]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 16:17:11,767|KW|DEBUG|kw.py:_comm_connect:312]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 16:17:20,487|KW|DEBUG|kw.py:_on_event_connect:75]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 16:17:21,210|KW|DEBUG|kw.py:_comm_rq_data:1150]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 16:17:21,721|KW|INFO|kw.py:_on_receive_msg:294] (!)[Callback] _on_receive_msg
+[2022-05-08 16:17:21,721|KW|INFO|kw.py:_on_receive_msg:295] screen_no: 6001
+[2022-05-08 16:17:21,721|KW|INFO|kw.py:_on_receive_msg:296] rqname: 
+[2022-05-08 16:17:21,722|KW|INFO|kw.py:_on_receive_msg:297] trcode(TRansaction name): 
+[2022-05-08 16:17:21,722|KW|INFO|kw.py:_on_receive_msg:298] msg: 
+[2022-05-08 16:17:21,723|KW|INFO|tr.py:_on_receive_tr_data:142] (!)[Callback] _on_receive_tr_data
+[2022-05-08 16:17:21,724|KW|INFO|tr.py:_on_receive_tr_data:143] trcode : OPW00004
+[2022-05-08 16:17:21,724|KW|INFO|tr.py:post_opw00004:813] [POST_OPW00004] completed
+[2022-05-08 16:17:21,725|KW|INFO|tr.py:_on_receive_tr_data:154]   ========================> [IMPORTANT] EVENT_LOOP -> RELEASE
+[2022-05-08 16:17:22,232|KW|INFO|tr.py:_on_receive_tr_data:159] [OnReceiveTrData] Notify callback method..
+[2022-05-08 16:17:22,234|KW|DEBUG|kw.py:get_condition_load:471]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 16:17:22,863|KW|INFO|kw.py:_on_receive_condition_ver:231] Success to load user condition
+[2022-05-08 16:17:22,870|KW|DEBUG|kw.py:_on_receive_condition_ver:237]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 16:17:23,379|KW|INFO|kw.py:send_condition:516] Start to Condition(피봇) Search !
+[2022-05-08 16:17:23,380|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 16:17:23,895|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 16:17:23,895|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 16:17:23,896|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 16:17:23,896|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 050960;096640;105840;204840;
+[2022-05-08 16:17:23,897|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 피봇
+[2022-05-08 16:17:23,897|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 16
+[2022-05-08 16:17:23,897|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 16:17:23,898|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 16:17:23,898|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 16:17:24,916|KW|INFO|kw.py:send_condition:516] Start to Condition(1분단타_최고종가) Search !
+[2022-05-08 16:17:24,917|KW|DEBUG|kw.py:send_condition:521]   ==================> [IMPORTANT] EVENT_LOOP -> LOCK
+[2022-05-08 16:17:25,428|KW|INFO|kw.py:_on_receive_tr_condition:182] _on_receive_tr_condition
+[2022-05-08 16:17:25,429|KW|INFO|kw.py:_on_receive_tr_condition:184] -------------------------[조건 검색 결과]-------------------------
+[2022-05-08 16:17:25,429|KW|INFO|kw.py:_on_receive_tr_condition:195] * screen_no: 4000
+[2022-05-08 16:17:25,429|KW|INFO|kw.py:_on_receive_tr_condition:195] * code_list: 003350;038110;105840;322180;
+[2022-05-08 16:17:25,430|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_name: 1분단타_최고종가
+[2022-05-08 16:17:25,430|KW|INFO|kw.py:_on_receive_tr_condition:195] * condi_index: 15
+[2022-05-08 16:17:25,431|KW|INFO|kw.py:_on_receive_tr_condition:195]      * next: 0
+[2022-05-08 16:17:25,431|KW|INFO|kw.py:_on_receive_tr_condition:196] ------------------------------------------------------------
+[2022-05-08 16:17:25,431|KW|DEBUG|kw.py:_on_receive_tr_condition:198]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE
+[2022-05-08 16:17:25,627|KW|DEBUG|kw.py:_on_receive_tr_condition:214]   ==================> [IMPORTANT] EVENT_LOOP <- RELEASE

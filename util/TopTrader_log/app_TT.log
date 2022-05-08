@@ -1,0 +1,64 @@
+[2022-05-08 15:31:34,474|TT|INFO|auto_trading.py:login:63] Login success
+[2022-05-08 15:43:32,183|TT|INFO|auto_trading.py:login:63] Login success
+[2022-05-08 15:43:32,186|TT|INFO|auto_trading.py:load_stock_info:71] loading stock_information completed.
+[2022-05-08 15:43:32,187|TT|INFO|auto_trading.py:get_account_info:176] 계좌평가현황요청
+[2022-05-08 15:43:33,421|TT|INFO|auto_trading.py:auto_trading:250] TopTrader 자동매매 시작합니다...
+[2022-05-08 15:43:34,575|TT|INFO|auto_trading.py:auto_trading:260] 실시간 조건 검색 시작합니다.
+[2022-05-08 15:43:34,576|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 피봇, 조건식ID: 016
+[2022-05-08 15:43:36,102|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 1분단타_최고종가, 조건식ID: 015
+[2022-05-08 15:43:37,633|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 1분 단타, 조건식ID: 013
+[2022-05-08 15:43:39,164|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 개미친구, 조건식ID: 014
+[2022-05-08 15:43:40,692|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 개미친구_224부근, 조건식ID: 010
+[2022-05-08 15:43:42,227|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 개미친구_박스돌파, 조건식ID: 012
+[2022-05-08 15:43:43,760|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 개미친구_RSI진입, 조건식ID: 004
+[2022-05-08 15:43:45,294|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 개미친구_RSI(5)_70접근, 조건식ID: 009
+[2022-05-08 15:43:46,825|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 급락반등, 조건식ID: 011
+[2022-05-08 15:43:48,360|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: RSI(5)_70접근, 조건식ID: 000
+[2022-05-08 15:43:49,888|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: RSI 진입, 조건식ID: 017
+[2022-05-08 15:43:51,416|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 낙폭, 조건식ID: 001
+[2022-05-08 15:43:52,946|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 신규개미친구, 조건식ID: 008
+[2022-05-08 15:44:00,668|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 단타초반, 조건식ID: 002
+[2022-05-08 15:44:02,953|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 피봇단타, 조건식ID: 003
+[2022-05-08 15:44:03,917|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 시초가2, 조건식ID: 007
+[2022-05-08 15:44:03,931|TT|INFO|auto_trading.py:check_stocks_to_sell:131] [Timer Interrupt] 30 second
+[2022-05-08 15:44:03,931|TT|INFO|auto_trading.py:get_account_info:176] 계좌평가현황요청
+[2022-05-08 15:44:05,174|TT|INFO|auto_trading.py:check_stocks_to_sell:134] ==================================================
+[2022-05-08 15:44:05,175|TT|INFO|auto_trading.py:check_stocks_to_sell:135] 현재 계좌 현황입니다...
+[2022-05-08 15:44:06,537|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 전일고가돌파1, 조건식ID: 005
+[2022-05-08 15:44:07,579|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 전일고가돌파2, 조건식ID: 006
+[2022-05-08 15:44:08,575|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 새조건명, 조건식ID: 018
+[2022-05-08 15:59:15,297|TT|INFO|auto_trading.py:login:63] Login success
+[2022-05-08 15:59:15,314|TT|INFO|auto_trading.py:load_stock_info:71] loading stock_information completed.
+[2022-05-08 15:59:15,315|TT|INFO|auto_trading.py:get_account_info:176] 계좌평가현황요청
+[2022-05-08 15:59:16,547|TT|INFO|auto_trading.py:auto_trading:250] TopTrader 자동매매 시작합니다...
+[2022-05-08 15:59:17,709|TT|INFO|auto_trading.py:auto_trading:260] 실시간 조건 검색 시작합니다.
+[2022-05-08 15:59:17,710|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 피봇, 조건식ID: 016
+[2022-05-08 15:59:19,248|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 1분단타_최고종가, 조건식ID: 015
+[2022-05-08 15:59:20,791|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 1분 단타, 조건식ID: 013
+[2022-05-08 15:59:22,330|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 개미친구, 조건식ID: 014
+[2022-05-08 15:59:23,872|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 개미친구_224부근, 조건식ID: 010
+[2022-05-08 15:59:25,412|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 개미친구_박스돌파, 조건식ID: 012
+[2022-05-08 15:59:26,953|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 개미친구_RSI진입, 조건식ID: 004
+[2022-05-08 15:59:28,481|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 개미친구_RSI(5)_70접근, 조건식ID: 009
+[2022-05-08 15:59:30,024|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 급락반등, 조건식ID: 011
+[2022-05-08 15:59:31,563|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: RSI(5)_70접근, 조건식ID: 000
+[2022-05-08 15:59:33,091|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: RSI 진입, 조건식ID: 017
+[2022-05-08 15:59:34,632|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 낙폭, 조건식ID: 001
+[2022-05-08 15:59:36,159|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 신규개미친구, 조건식ID: 008
+[2022-05-08 15:59:46,164|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 단타초반, 조건식ID: 002
+[2022-05-08 15:59:46,552|TT|INFO|auto_trading.py:check_stocks_to_sell:131] [Timer Interrupt] 30 second
+[2022-05-08 15:59:46,553|TT|INFO|auto_trading.py:get_account_info:176] 계좌평가현황요청
+[2022-05-08 15:59:47,798|TT|INFO|auto_trading.py:check_stocks_to_sell:134] ==================================================
+[2022-05-08 15:59:47,798|TT|INFO|auto_trading.py:check_stocks_to_sell:135] 현재 계좌 현황입니다...
+[2022-05-08 15:59:48,314|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 피봇단타, 조건식ID: 003
+[2022-05-08 15:59:49,541|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 시초가2, 조건식ID: 007
+[2022-05-08 15:59:50,461|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 전일고가돌파1, 조건식ID: 005
+[2022-05-08 15:59:51,412|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 전일고가돌파2, 조건식ID: 006
+[2022-05-08 15:59:52,413|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4001, 조건식명: 새조건명, 조건식ID: 018
+[2022-05-08 16:17:20,994|TT|INFO|auto_trading.py:login:63] Login success
+[2022-05-08 16:17:21,009|TT|INFO|auto_trading.py:load_stock_info:71] loading stock_information completed.
+[2022-05-08 16:17:21,009|TT|INFO|auto_trading.py:get_account_info:176] 계좌평가현황요청
+[2022-05-08 16:17:22,233|TT|INFO|auto_trading.py:auto_trading:250] TopTrader 자동매매 시작합니다...
+[2022-05-08 16:17:23,378|TT|INFO|auto_trading.py:auto_trading:260] 실시간 조건 검색 시작합니다.
+[2022-05-08 16:17:23,378|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 피봇, 조건식ID: 016
+[2022-05-08 16:17:24,915|TT|INFO|auto_trading.py:auto_trading:263] 화면번호: 4000, 조건식명: 1분단타_최고종가, 조건식ID: 015
