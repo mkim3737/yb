@@ -23,7 +23,7 @@ from PyQt5 import QtGui
 from PyQt5.QtCore import pyqtSlot
 
 # Notification
-from slacker import Slacker
+# from slacker import Slacker
 
 # Database
 import pymongo
@@ -67,7 +67,7 @@ class TopTrader(QMainWindow, ui):
         self.db = self.mongo.TopTrader
 
         # Slack
-        self.slack = Slacker(cfg_mgr.get_slack_token())
+        # self.slack = Slacker(cfg_mgr.get_slack_token())
 
         # Kiwoom
         self.kw = Kiwoom()
@@ -88,7 +88,7 @@ class TopTrader(QMainWindow, ui):
         # 그래프에서 마이너스 폰트 깨지는 문제에 대한 대처
         mpl.rcParams['axes.unicode_minus'] = False
 
-        path = 'c:/Windows/Fonts/D2Coding-Ver1.3-20171129.ttc'
+        path = 'C:/Users/minsu/AppData/Local/Microsoft/Windows/Fonts/D2Coding-Ver1.3.2-20180524-all.ttc'
         font_name = fm.FontProperties(fname=path).get_name()
         plt.rcParams["font.family"] = font_name
 
